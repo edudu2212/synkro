@@ -1,0 +1,62 @@
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/IOS/Intermediate/
+Build/IOS/Debug/
+Build/IOS/Release/
+Build/Android/Intermediate/
+Build/Android/gradle/
+Build/Linux/Intermediate/
+Build/Mac/Intermediate/
+Build/Windows/Intermediate/
+
+# Plugins intermediates
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+Plugins/*/DerivedDataCache/
+
+# Config local (não partilhar settings pessoais)
+*.local
+*.user
+*.userprefs
+
+# Backup & Logs
+*.log
+*.vs/
+.vscode/
+.vsconfig
+*.suo
+*.tmp
+*.temp
+
+# Compilação / Packaging
+*.pdb
+*.obj
+*.exe
+*.dll
+*.app
+*.apk
+*.ipa
+
+# Cache da Unreal
+*.uprojdirs
+
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Rider
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Outros ficheiros gerados automaticamente
+Saved/
